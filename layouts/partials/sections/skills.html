@@ -1,0 +1,152 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+{{ $columns := default 3 .section.columns }}
+{{ $defaultFilter := default "" .section.defaultFilter }}
+
+<div class="container-fluid anchor pb-5 skills-section" id="{{ $sectionID }}">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ else }}
+    <h1 class="text-center" style="display: none">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ end }}
+  {{ if .section.filter }}
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="skill-filter-buttons">
+      {{ range .buttons }}
+      <button type="button" class="btn btn-dark skill-filtr-control{{ if eq .filter $defaultFilter }} active{{ end }}" data-filter="{{ .filter }}">
+        {{ .name }}
+      </button>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  <div class="container">
+    <div class="skills-column-holder" id="skill-card-holder">
+      {{ range $i := seq 1 $columns }}
+      <div class="skills-column">
+        {{ range $.skills }}
+        {{ $itemColumn := default 1 .column }}
+        {{ if eq $itemColumn $i }}
+        {{ $categories := "" }}
+        {{ if .categories }}
+          {{ $categories = delimit .categories " " }}
+        {{ end }}
+        <div class="filtr-item skill-list-item-wrap" data-category="{{ $categories }}">
+          <div class="skill-list-item px-2 py-2">
+            <div class="d-flex align-items-center skill-list-term">
+              {{ if .logo }}
+                {{ $logoImage := resources.Get .logo }}
+                {{ if $logoImage }}
+                <img src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" class="skill-list-icon me-2" />
+                {{ end }}
+              {{ end }}
+              <span class="skill-list-name">{{ .name }}</span>
+            </div>
+            {{ if .summary }}
+            <div class="skill-list-desc">{{ .summary }}</div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<style>
+  .skills-column-holder {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .skills-column {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-list-item-wrap {
+    display: block;
+  }
+  .skill-list-item-wrap.skill-hidden {
+    display: none;
+  }
+  .skill-list-item-wrap {
+    margin-bottom: 0.9rem;
+  }
+  .skill-list-item {
+    border-radius: 6px;
+    transition: background-color 0.15s ease;
+  }
+  .skill-list-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .skill-list-term {
+    margin-bottom: 0.2rem;
+  }
+  .skill-list-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  .skill-list-name {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .skill-list-desc {
+    font-size: 0.85rem;
+    color: #6c757d;
+    line-height: 1.3;
+    padding-left: 30px;
+  }
+  @media (max-width: 767px) {
+    .skills-column-holder {
+      flex-direction: column;
+    }
+  }
+</style>
+
+{{ if .section.filter }}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var buttons = document.querySelectorAll("#skill-filter-buttons .skill-filtr-control");
+    var items = document.querySelectorAll("#skill-card-holder .filtr-item");
+
+    function applyFilter(filterValue) {
+      items.forEach(function (item) {
+        var cats = (item.getAttribute("data-category") || "").split(" ").filter(Boolean);
+        var show = filterValue === "all" || cats.indexOf(filterValue) !== -1;
+        item.classList.toggle("skill-hidden", !show);
+      });
+      buttons.forEach(function (btn) {
+        btn.classList.toggle("active", btn.getAttribute("data-filter") === filterValue);
+      });
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        applyFilter(btn.getAttribute("data-filter"));
+      });
+    });
+
+    {{ if $defaultFilter }}
+    var defaultBtn = document.querySelector('#skill-filter-buttons .skill-filtr-control[data-filter="{{ $defaultFilter }}"]');
+    if (defaultBtn) {
+      defaultBtn.focus({ preventScroll: true });
+      defaultBtn.click();
+    } else {
+      applyFilter("{{ $defaultFilter }}");
+    }
+    {{ end }}
+  });
+</script>
+{{ end }}

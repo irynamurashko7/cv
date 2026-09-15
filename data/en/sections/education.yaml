@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master of Philology (German Language and Literature) qualified as a Philologist, Teacher of German/English, Translator (DE/EN)
+  icon: fa-graduation-cap
+  timeframe: 2005-2010
+  institution:
+    name: V.N. Karazin Kharkiv National University
+    url: "#"
+    logo: /images/sections/education/university.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg

@@ -1,0 +1,18 @@
+# some information about you
+name: "Iryna Murashko"
+nickname: "Iryna"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/iryna.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "iryna.murashko7@gmail.com"
+  linkedin: "https://www.linkedin.com/in/iryna-murashko-97b81447"
+
+# some summary about what you do
+summary:
+  - Technical Writing
+  - Developer Documentation
+  - API Documentation
+  - End-user Documentation
+  - Docs-as-code

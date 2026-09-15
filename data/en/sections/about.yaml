@@ -1,0 +1,53 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: Technical Writer
+
+# a summary of what you do
+summary: |
+  Technical Writer with 5+ years of experience creating and maintaining technical documentation for B2B software products.
+  Experienced in working closely with developers and subject-matter experts to gather, clarify, validate, and structure complex technical information.
+
+  My experience includes product and functionality documentation, API specifications, user guides, tutorials, how-to instructions, troubleshooting procedures, flow diagrams, and technical glossaries.
+  I work with Git-based documentation workflows, Markdown, Docs-as-Code, Confluence, GitBook, and Antora.
+
+  My background in customer support and project management also gives me a strong user-oriented perspective and experience translating technical information into clear, practical instructions.
+  
+  I also have a background in translation and philology, with professional experience working across English, German, Ukrainian, and Russian. This has strengthened my attention to terminology, consistency, and clear communication.
+  
+  I'm currently looking for a Technical Writer role where I can contribute to developer-facing and product documentation for software products.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "mailto:iryna.murashko7@gmail.com"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/iryna-murashko-97b81447"
+
+  - name: Instagram
+    icon: "fab fa-instagram"
+    url: "https://www.instagram.com/i_murashko_knitwear"
+
+# resource links, e.g. link to your resume
+resourceLinks:
+  - title: "My CV"
+    url: "files/CV_Iryna_Murashko.pdf"
+  - title: "Docs Sample"
+    url: "https://irynamurashko7.github.io/docs-demo-portfolio/"
+
+# a list of tags/keywords relevant to you
+tags:
+  - "Technical Writing"
+  - "API Documentation"
+  - "Diataxis"
+  - "SaaS"

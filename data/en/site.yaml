@@ -1,0 +1,7 @@
+description: CV of Iryna Murashko.
+
+customMenus:
+- name: Docs Sample
+  url: https://irynamurashko7.github.io/docs-demo-portfolio/
+  hideFromNavbar: false
+  highlight: true

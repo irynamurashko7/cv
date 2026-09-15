@@ -1,0 +1,113 @@
+# section information
+section:
+  name: Professional Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Self-employed
+    location: Kyiv
+  positions:
+  - designation: Independent Craftsperson
+    start: 2025
+    responsibilities:
+    - Independent craft business focused on designing, producing, and selling original handmade knitwear, including customer communication and order management.
+
+- company:
+    name: Zone 3000 Ltd.
+    location: Kharkiv Branch
+    overview: Namecheap and Spaceship projects
+  positions:
+  - designation: Technical Writer
+    start: 2019
+    end: 2024
+    responsibilities:
+    - Created and maintained developer-facing documentation for B2B software products, collaborating with developers and subject-matter experts to gather, clarify, and validate technical information.
+    - Documented APIs, product functionality, glossaries, workflows, tutorials, how-to guides, and troubleshooting procedures, translating complex technical concepts into clear, structured, task-oriented documentation.
+    - Created flow diagrams and structured documentation to explain complex processes and workflows, while maintaining documentation architecture, information structure, terminology, and consistency across product areas.
+    - Worked in Git-based documentation workflows, reviewing documentation with developers and subject-matter experts to ensure technical accuracy, clarity, and consistency.
+    - Created and maintained documentation using GitBook and Antora (Markdown-based and Asciidoctor-based content), and API documentation using JSDoc, TypeDoc, Swagger, and RapiDoc.
+    - Tested product functionality via API calls and reproduced basic implementation code (e.g., React widgets) to verify accuracy and completeness of technical documentation.
+    - Maintained internal team documentation in Confluence, keeping process and product knowledge organized and up to date.
+    achievements:
+    - Restructured documentation architecture (dozens of pages) from a descriptive format to the Diataxis framework (Tutorials, How-to Guides, Reference, Explanation), improving content discoverability and consistency for developer users.
+    - Onboarded and mentored a new Technical Writer - training them on platform knowledge, tools and processes (e.g., Confluence, JSDoc), and the Diataxis framework, while reviewing their documentation and providing feedback.
+  - designation: Customer Support Representative
+    start: 2015
+    end: 2016
+    responsibilities:
+    - Resolved customer complaints and technical issues via chat and ticketing systems for website and email hosting.
+    - Assisted customers with DNS, email client, FTP, and SSH configuration.
+    - Created customer-facing documentation and how-to guides on hosting, email, DNS, and related services for non-technical users.
+    - Supported minor website coding issue resolution for non-technical customers.
+
+- company:
+    name: Under NDA
+    location: Kharkiv
+    overview: ConnectyCube project
+  positions:
+  - designation: Account Manager / Project Manager
+    start: 2018
+    end: 2019
+    responsibilities:
+    - Supported customers implementing real-time communication solutions, including messaging, voice/video calls, and push notifications; provided onboarding and technical documentation.
+    - Managed client projects and assisted with code implementation.
+
+- company:
+    name: Injoit Ltd.
+    location: Kharkiv
+    overview: QuickBlox project
+  positions:
+  - designation: Customer Support Representative / Project Manager
+    start: 2017
+    end: 2018
+    responsibilities:
+    - Supported customers implementing real-time communication solutions, including messaging, voice/video calls, and push notifications.
+    - Managed client projects and assisted with code implementation.
+
+- company:
+    name: Gulfstream
+    location: Kharkiv
+    overview: Translation Agency
+  positions:
+  - designation: Translator/Interpreter
+    start: 2012
+    end: 2015
+    responsibilities:
+    - Translated texts across diverse subject areas (tax, legal, medical, technical, educational) between English, German, Ukrainian, and Russian.
+    - Assisted customers who needed to call abroad.
+  - designation: Translator
+    start: 2010
+    end: 2011
+    responsibilities:
+    - Translated texts across diverse subject areas (tax, legal, medical, technical, educational) between English, German, Ukrainian, and Russian.
+
+- company:
+    name: AF "Roedl Audit" Ltd.
+    location: Kharkiv
+    overview: Audit Firm
+  positions:
+  - designation: Translator
+    start: 2011
+    end: 2012
+    responsibilities:
+    - Translated texts, documents, and correspondence between English, German, Russian, and Ukrainian.
+    - Translated standardized legal and audit-report documents with fixed, formulaic wording - manually and using Trados (CAT tool) - maintaining terminological and structural consistency across repeated report formats.
+
+- company:
+    name: Martin
+    location: Kharkiv
+    overview: Translation Agency
+  positions:
+  - designation: Translator
+    start: 2010
+    end: 2010
+    responsibilities:
+    - Translated texts across diverse subject areas between English, German, Ukrainian, and Russian.
+    
