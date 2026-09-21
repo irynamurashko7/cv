@@ -15,7 +15,12 @@ degrees:
   timeframe: 2005-2010
   institution:
     name: V.N. Karazin Kharkiv National University
-    url: "#"
+    url: "https://karazin.ua/en/"
     logo: /images/sections/education/university.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
+- name: Self-directed technical learning - Hugo, Vivliostyle, GitHub Pages; exploring DITA next
+  icon: fa-book
+  publications:
+  - title: Documentation samples built with Antora and published via GitHub Pages
+    url: "https://irynamurashko7.github.io/docs-demo-portfolio/"

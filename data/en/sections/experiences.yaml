@@ -36,8 +36,8 @@ experiences:
     - Tested product functionality via API calls and reproduced basic implementation code (e.g., React widgets) to verify accuracy and completeness of technical documentation.
     - Maintained internal team documentation in Confluence, keeping process and product knowledge organized and up to date.
     achievements:
-    - Restructured documentation architecture (dozens of pages) from a descriptive format to the Diataxis framework (Tutorials, How-to Guides, Reference, Explanation), improving content discoverability and consistency for developer users.
-    - Onboarded and mentored a new Technical Writer - training them on platform knowledge, tools and processes (e.g., Confluence, JSDoc), and the Diataxis framework, while reviewing their documentation and providing feedback.
+    - Translated a Diataxis-based documentation strategy into a concrete architecture for the entire site (moving from a descriptive format to Tutorials/How-to/Reference/Explanation with DITA-influenced content modeling) and implemented it across the highest-priority content (~250 documents); received positive feedback from developers and other integrating team members.
+    - Trained and mentored a new Technical Writer over ~9 months to transition ownership of one of the two core teams to her (including platform knowledge, tooling (Confluence, JSDoc), and the Diataxis framework) while reviewing her documentation and providing feedback.
   - designation: Customer Support Representative
     start: 2015
     end: 2016

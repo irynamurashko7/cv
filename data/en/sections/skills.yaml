@@ -13,7 +13,7 @@ section:
 buttons:
   - name: Methodology
     filter: "methodology"
-  - name: Docs-as-code Toolchain
+  - name: Docs-as-Code Toolchain
     filter: "docs"
   - name: Diagramming
     filter: "diagram"
@@ -32,7 +32,7 @@ skills:
     categories: ["methodology"]
     column: 1
 
-  - name: Docs-as-code
+  - name: Docs-as-Code
     logo: /images/sections/skills/docs-as-code.svg
     summary: "Writing and maintaining documentation in Git-based workflows alongside developers, using version control and review processes."
     categories: ["methodology"]
@@ -83,6 +83,18 @@ skills:
   - name: Hugo
     logo: /images/sections/skills/hugo.svg
     summary: "Building and maintaining static sites with Hugo, including working with Hugo Modules and custom layout overrides."
+    categories: ["docs"]
+    column: 1
+
+  - name: Vivliostyle
+    logo: /images/sections/skills/vivliostyle.svg
+    summary: "Converting HTML/CSS documents to print-ready PDFs using CSS Paged Media."
+    categories: ["docs"]
+    column: 1
+
+  - name: GitHub Pages
+    logo: /images/sections/skills/github-pages.svg
+    summary: "Deploying and hosting static documentation and portfolio sites via GitHub Pages."
     categories: ["docs"]
     column: 1
 

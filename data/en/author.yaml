@@ -1,6 +1,7 @@
 # some information about you
 name: "Iryna Murashko"
 nickname: "Iryna"
+subtitle: Senior Technical Writer | Documentation Engineer
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/iryna.jpg"
@@ -15,4 +16,4 @@ summary:
   - Developer Documentation
   - API Documentation
   - End-user Documentation
-  - Docs-as-code
+  - Docs-as-Code

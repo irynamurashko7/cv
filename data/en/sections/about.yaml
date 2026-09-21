@@ -7,11 +7,11 @@ section:
   showOnNavbar: true
 
 # your designation
-designation: Technical Writer
+designation: Senior Technical Writer | Documentation Engineer
 
 # a summary of what you do
 summary: |
-  Technical Writer with 5+ years of experience creating and maintaining technical documentation for B2B software products.
+  Technical Writer with 5+ years of experience creating and maintaining technical documentation for B2B software products, including restructuring documentation architecture and mentoring a technical writer.
   Experienced in working closely with developers and subject-matter experts to gather, clarify, validate, and structure complex technical information.
 
   My experience includes product and functionality documentation, API specifications, user guides, tutorials, how-to instructions, troubleshooting procedures, flow diagrams, and technical glossaries.
@@ -21,7 +21,7 @@ summary: |
   
   I also have a background in translation and philology, with professional experience working across English, German, Ukrainian, and Russian. This has strengthened my attention to terminology, consistency, and clear communication.
   
-  I'm currently looking for a Technical Writer role where I can contribute to developer-facing and product documentation for software products.
+  After a period spent running an independent craft business, I'm returning to technical writing and looking for a role where I can contribute to developer-facing and product documentation for software products.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -40,11 +40,10 @@ socialLinks:
 
 # resource links, e.g. link to your resume
 resourceLinks:
-  - title: "My CV"
-    url: "files/CV_Iryna_Murashko.pdf"
-  - title: "Docs Sample"
+  - title: "View Docs Sample"
     url: "https://irynamurashko7.github.io/docs-demo-portfolio/"
 
+resume: "files/CV_Iryna_Murashko.pdf"
 # a list of tags/keywords relevant to you
 tags:
   - "Technical Writing"
