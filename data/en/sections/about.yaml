@@ -28,15 +28,11 @@ summary: |
 socialLinks:
   - name: Email
     icon: "fas fa-envelope"
-    url: "mailto:iryna.murashko7@gmail.com"
+    url: "iryna.murashko7@gmail.com"
 
   - name: LinkedIn
     icon: "fab fa-linkedin"
     url: "https://www.linkedin.com/in/iryna-murashko-97b81447"
-
-  - name: Instagram
-    icon: "fab fa-instagram"
-    url: "https://www.instagram.com/i_murashko_knitwear"
 
 # resource links, e.g. link to your resume
 resourceLinks:
