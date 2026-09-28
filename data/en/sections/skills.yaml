@@ -17,6 +17,8 @@ buttons:
     filter: "docs"
   - name: Diagramming
     filter: "diagram"
+  - name: CI/CD & Publishing
+    filter: "publishing"
   - name: Collaboration & Workflow
     filter: "collab"
   - name: Dev Basics
@@ -92,12 +94,6 @@ skills:
     categories: ["docs"]
     column: 1
 
-  - name: GitHub Pages
-    logo: /images/sections/skills/github-pages.svg
-    summary: "Deploying and hosting static documentation and portfolio sites via GitHub Pages."
-    categories: ["docs"]
-    column: 1
-
   - name: Swagger
     logo: /images/sections/skills/swagger.svg
     summary: "Documenting and testing REST APIs using the OpenAPI/Swagger specification."
@@ -155,6 +151,16 @@ skills:
     summary: "Using UML diagrams to represent system structure and interactions in technical documentation."
     categories: ["diagram"]
 
+  - name: GitHub Pages
+    logo: /images/sections/skills/github-pages.svg
+    summary: "Deploying and hosting static documentation and portfolio sites via GitHub Pages."
+    categories: ["publishing"]
+
+  - name: Jenkins
+    logo: /images/sections/skills/jenkins.svg
+    summary: Monitoring documentation deployment pipelines and troubleshooting build failures using Jenkins logs.
+    categories: ["publishing"]
+
   - name: Jira
     logo: /images/sections/skills/jira.svg
     summary: "Tracking and prioritizing documentation and support tasks in Jira."
@@ -176,12 +182,6 @@ skills:
   - name: SDLC
     logo: /images/sections/skills/sdlc.svg
     summary: "Familiar with the software development lifecycle and how documentation fits into release processes."
-    categories: ["collab"]
-    column: 3
-
-  - name: Jenkins
-    logo: /images/sections/skills/jenkins.svg
-    summary: Monitoring documentation deployment pipelines and troubleshooting build failures using Jenkins logs.
     categories: ["collab"]
     column: 3
 
