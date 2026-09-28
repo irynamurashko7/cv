@@ -179,6 +179,12 @@ skills:
     categories: ["collab"]
     column: 3
 
+  - name: Jenkins
+    logo: /images/sections/skills/jenkins.svg
+    summary: Monitoring documentation deployment pipelines and troubleshooting build failures using Jenkins logs.
+    categories: ["collab"]
+    column: 3
+
   - name: JavaScript
     logo: /images/sections/skills/javascript.svg
     summary: "Basic working knowledge necessary to read code samples and test API behavior."
