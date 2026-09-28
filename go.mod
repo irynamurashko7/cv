@@ -1,4 +1,4 @@
-module github.com/irynamurashko7/resume
+module github.com/irynamurashko7/cv
 
 go 1.27.1
 
