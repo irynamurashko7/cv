@@ -130,6 +130,12 @@ skills:
     categories: ["docs"]
     column: 3
 
+  - name: Headless CMS
+    logo: /images/sections/skills/headless-cms.svg
+    summary: Updating content in a Git-based headless CMS via scheduled JSON update patches committed to the repository.
+    categories: ["docs"]
+    column: 3
+
   - name: Architecture Diagrams
     logo: /images/sections/skills/flow-diagram.svg
     summary: "Modeling system structure and component relationships using architecture diagrams."
@@ -182,6 +188,12 @@ skills:
   - name: SDLC
     logo: /images/sections/skills/sdlc.svg
     summary: "Familiar with the software development lifecycle and how documentation fits into release processes."
+    categories: ["collab"]
+    column: 3
+
+  - name: Agile
+    logo: /images/sections/skills/agile.svg
+    summary: "Working as part of an Agile team, participating in sprint planning, daily standups, and retrospectives, using a Kanban board."
     categories: ["collab"]
     column: 3
 
