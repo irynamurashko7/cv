@@ -215,6 +215,12 @@ skills:
     categories: ["dev"]
     column: 1
 
+  - name: PHP
+    logo: /images/sections/skills/php.svg
+    summary: "Basic reading and troubleshooting of PHP code on customer sites (e.g., Laravel, Magento) in hosting support cases."
+    categories: ["dev"]
+    column: 1
+
   - name: React
     logo: /images/sections/skills/react.svg
     summary: "Reading and reproducing basic React components (e.g., widgets) to verify documentation accuracy."
@@ -236,6 +242,12 @@ skills:
   - name: JSON
     logo: /images/sections/skills/json.svg
     summary: "Reading and working with JSON data structures for API documentation and testing."
+    categories: ["dev"]
+    column: 2
+
+  - name: YAML
+    logo: /images/sections/skills/yaml.svg
+    summary: "Writing and maintaining Swagger/OpenAPI specifications in YAML for API documentation."
     categories: ["dev"]
     column: 2
   
