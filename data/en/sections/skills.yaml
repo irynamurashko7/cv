@@ -185,6 +185,12 @@ skills:
     categories: ["collab"]
     column: 2
 
+  - name: Remote Collaboration
+    logo: /images/sections/skills/remote-collaboration.svg
+    summary: "Collaborating with geographically distributed teammates across countries, adapting communication and workflows to support effective remote teamwork."
+    categories: ["collab"]
+    column: 2
+
   - name: SDLC
     logo: /images/sections/skills/sdlc.svg
     summary: "Familiar with the software development lifecycle and how documentation fits into release processes."
@@ -260,6 +266,18 @@ skills:
   - name: Technical Troubleshooting
     logo: /images/sections/skills/troubleshooting.svg
     summary: "Diagnosing and resolving technical issues for customers, informed by hands-on support and code-reading experience."
+    categories: ["dev"]
+    column: 3
+
+  - name: SQL
+    logo: /images/sections/skills/sql.svg
+    summary: "Basic SQL querying for data retrieval and troubleshooting, including working with databases via phpMyAdmin and SSH, and adapting existing queries to support documentation workflows."
+    categories: ["dev"]
+    column: 3
+
+  - name: AI-assisted Development
+    logo: /images/sections/skills/ai-assisted-development.svg
+    summary: "Using AI coding assistants to troubleshoot issues, refine HTML/CSS, and configure a Hugo-based CV website and its PDF publishing workflow, validating changes before implementation."
     categories: ["dev"]
     column: 3
 

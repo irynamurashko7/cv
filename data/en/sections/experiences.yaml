@@ -15,7 +15,7 @@ experiences:
     location: Kyiv
   positions:
   - designation: Freelance
-    start: 2026
+    start: 2025
     responsibilities:
     - Helped software teams turn complex technical information into clear, structured documentation that developers and users can actually work with.
 
@@ -28,16 +28,19 @@ experiences:
     start: 2019
     end: 2024
     responsibilities:
-    - Created and maintained developer-facing documentation for B2B software products, collaborating with developers and subject-matter experts to gather, clarify, and validate technical information.
+    - Created and maintained developer-facing documentation for B2B software products.
+    - Independently researched product functionality, conducted structured SME interviews, and developed technical documentation, coordinating developer reviews through pull requests before publication.
     - Documented APIs, product functionality, glossaries, workflows, tutorials, how-to guides, and troubleshooting procedures, translating complex technical concepts into clear, structured, task-oriented documentation.
     - Created flow diagrams and structured documentation to explain complex processes and workflows, while maintaining documentation architecture, information structure, terminology, and consistency across product areas.
     - Worked in Git-based documentation workflows, reviewing documentation with developers and subject-matter experts to ensure technical accuracy, clarity, and consistency.
     - Created and maintained documentation using GitBook and Antora (Markdown-based and Asciidoctor-based content), and API documentation using JSDoc, TypeDoc, Swagger, and RapiDoc.
     - Tested product functionality via API calls and reproduced basic implementation code (e.g., React widgets) to verify accuracy and completeness of technical documentation.
     - Maintained internal team documentation in Confluence, keeping process and product knowledge organized and up to date.
+    - Created release notes in Confluence by adapting an existing SQL query to retrieve relevant completed tasks and turning incomplete or technical task descriptions into clear, user-friendly summaries of product changes.
+    - Contributed to establishing internal documentation style guidelines based on Apple, Microsoft, and Google writing standards, ensuring consistent terminology, tone, and formatting.
     achievements:
     - Translated a Diataxis-based documentation strategy into a concrete architecture for the entire site (moving from a descriptive format to Tutorials/How-to/Reference/Explanation with DITA-influenced content modeling) and implemented it across the highest-priority content (~250 documents); received positive feedback from developers and other integrating team members.
-    - Trained and mentored a new Technical Writer over ~9 months to transition ownership of one of the two core teams to her (including platform knowledge, tooling (Confluence, JSDoc), and the Diataxis framework) while reviewing her documentation and providing feedback.
+    - Trained and mentored a new Junior Technical Writer over ~9 months to transition ownership of one of the two core teams to her (including platform knowledge, tooling (Confluence, JSDoc), and the Diataxis framework) while reviewing her documentation and providing feedback.
   - designation: Customer Support Representative
     start: 2015
     end: 2016
@@ -57,7 +60,9 @@ experiences:
     end: 2019
     responsibilities:
     - Supported customers implementing real-time communication solutions, including messaging, voice/video calls, and push notifications; provided onboarding and technical documentation.
-    - Managed client projects and assisted with code implementation.
+    - Managed customer projects and assisted with code implementation.
+    - Gathered customer requirements for new features.
+    - Created B2B customer-facing documentation and how-to guides on the real-time communication solution topics.
 
 - company:
     name: Injoit Ltd.
