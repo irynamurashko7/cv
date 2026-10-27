@@ -120,7 +120,7 @@ skills:
 
   - name: CLI
     logo: /images/sections/skills/cli.svg
-    summary: "Comfortable working with command-line tools for documentation builds and testing."
+    summary: "Using Bash and command-line tools for documentation builds, testing, and troubleshooting, including SSH access and file system operations."
     categories: ["docs"]
     column: 3
 

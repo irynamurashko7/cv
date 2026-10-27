@@ -29,12 +29,12 @@ experiences:
     end: 2024
     responsibilities:
     - Created and maintained developer-facing documentation for B2B software products.
-    - Independently researched product functionality, conducted structured SME interviews, and developed technical documentation, coordinating developer reviews through pull requests before publication.
+    - Managed documentation planning and priorities for two core development teams, assigned tasks, coordinated work, and reviewed deliverables to ensure quality and consistency.
+    - Independently researched product functionality, conducted structured SME interviews, and developed technical documentation, coordinating developer reviews through Git-based pull requests before publication.
     - Documented APIs, product functionality, glossaries, workflows, tutorials, how-to guides, and troubleshooting procedures, translating complex technical concepts into clear, structured, task-oriented documentation.
     - Created flow diagrams and structured documentation to explain complex processes and workflows, while maintaining documentation architecture, information structure, terminology, and consistency across product areas.
-    - Worked in Git-based documentation workflows, reviewing documentation with developers and subject-matter experts to ensure technical accuracy, clarity, and consistency.
     - Created and maintained documentation using GitBook and Antora (Markdown-based and Asciidoctor-based content), and API documentation using JSDoc, TypeDoc, Swagger, and RapiDoc.
-    - Tested product functionality via API calls and reproduced basic implementation code (e.g., React widgets) to verify accuracy and completeness of technical documentation.
+    - Validated technical documentation through API testing and hands-on implementation, including integrating an SDK as an npm package into a React widget and using its functionality to develop and verify code examples.
     - Maintained internal team documentation in Confluence, keeping process and product knowledge organized and up to date.
     - Created release notes in Confluence by adapting an existing SQL query to retrieve relevant completed tasks and turning incomplete or technical task descriptions into clear, user-friendly summaries of product changes.
     - Contributed to establishing internal documentation style guidelines based on Apple, Microsoft, and Google writing standards, ensuring consistent terminology, tone, and formatting.
