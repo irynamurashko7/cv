@@ -40,6 +40,24 @@ skills:
     categories: ["methodology"]
     column: 1
 
+  - name: AI-assisted Writing & Editing
+    logo: /images/sections/skills/ai-writing-editing.svg
+    summary: "Using ChatGPT, Claude, and Gemini to draft, revise, proofread, and refine content, improve clarity and structure, and tailor CVs to job requirements."
+    categories: ["methodology"]
+    column: 1
+
+  - name: Content Editing & Proofreading
+    logo: /images/sections/skills/content-editing.svg
+    summary: "Reviewing and refining content for clarity, accuracy, grammar, consistency, and readability."
+    categories: ["methodology"]
+    column: 1
+
+  - name: Information Research & Verification
+    logo: /images/sections/skills/research-verification.svg
+    summary: "Researching topics, cross-checking information against reliable sources, and validating technical details with product behavior and subject matter experts."
+    categories: ["methodology"]
+    column: 1
+
   - name: Information Architecture
     logo: /images/sections/skills/architecture.svg
     summary: "Structuring documentation sets for discoverability, consistent terminology, and long-term maintainability."
@@ -182,6 +200,12 @@ skills:
   - name: Confluence
     logo: /images/sections/skills/confluence.svg
     summary: "Maintaining internal team documentation and knowledge bases in Confluence."
+    categories: ["collab"]
+    column: 2
+  
+  - name: Microsoft Office
+    logo: /images/sections/skills/microsoft-office.svg
+    summary: "Experience with Word, Excel, and PowerPoint, including document formatting, standardized templates, and complex Excel reports containing interconnected worksheets and macros."
     categories: ["collab"]
     column: 2
 
