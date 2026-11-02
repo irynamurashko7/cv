@@ -30,7 +30,7 @@ buttons:
 skills:
   - name: Technical Writing
     logo: /images/sections/skills/technical-writing.svg
-    summary: "Creating clear, structured, task-oriented documentation for developers and end users, from concept to publication."
+    summary: "Creating clear, structured, task-oriented technical documentation for developers and end users, including user guides, how-to instructions, troubleshooting procedures, and process documentation."
     categories: ["methodology"]
     column: 1
 
