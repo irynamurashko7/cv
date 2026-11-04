@@ -33,7 +33,8 @@ experiences:
     - Independently researched product functionality, conducted structured SME interviews, and developed technical documentation, coordinating developer reviews through Git-based pull requests before publication.
     - Reviewed and edited documentation prepared by a junior technical writer, improving clarity, accuracy, consistency, and adherence to writing standards.
     - Documented APIs, product functionality, glossaries, workflows, tutorials, how-to guides, and troubleshooting procedures, translating complex technical concepts into clear, structured, task-oriented documentation.
-    - Created flow diagrams and structured documentation to explain complex processes and workflows, while maintaining documentation architecture, information structure, terminology, and consistency across product areas.
+    - Participated in integration planning sessions with product development teams, helping analyze integration requirements and define data exchange protocols, including data mapping, exchange workflows, and validation rules for integrations between multiple products through a shared intermediary platform.
+    - Analyzed and documented product workflows, API interactions, and component relationships using flow and architecture diagrams, ensuring technical accuracy and consistency across product areas.
     - Created and maintained documentation using GitBook and Antora (Markdown-based and Asciidoctor-based content), and API documentation using JSDoc, TypeDoc, Swagger, and RapiDoc.
     - Validated technical documentation through API testing and hands-on implementation, including integrating an SDK as an npm package into a React widget and using its functionality to develop and verify code examples.
     - Maintained internal team documentation in Confluence, keeping process and product knowledge organized and up to date.
@@ -60,10 +61,11 @@ experiences:
     start: 2018
     end: 2019
     responsibilities:
-    - Supported customers implementing real-time communication solutions, including messaging, voice/video calls, and push notifications; provided onboarding assistance and technical documentation.
-    - Gathered and clarified customer requirements for new features.
-    - Created B2B customer-facing documentation and how-to guides, making technical information accessible to customers.
-    - Coordinated customer projects and assisted with code implementation.
+    - Coordinated B2B customer projects involving the integration of real-time communication solutions, including messaging, voice/video calls, and push notifications.
+    - Gathered and analyzed customer requirements, advising on the most suitable integration and deployment approach, including shared cloud infrastructure and dedicated on-premises deployments.
+    - Translated customer needs into actionable technical requirements and facilitated communication between customers and development teams.
+    - Supported customers through onboarding and implementation, resolving technical questions and integration issues.
+    - Created technical documentation and integration guides to support customer implementation.
 
 - company:
     name: Injoit Ltd.
@@ -74,8 +76,9 @@ experiences:
     start: 2017
     end: 2018
     responsibilities:
-    - Supported customers implementing real-time communication solutions, including messaging, voice/video calls, and push notifications.
-    - Managed client projects and assisted with code implementation.
+    - Supported B2B customers integrating real-time communication solutions through shared cloud and dedicated on-premises deployments.
+    - Assisted customers with integration requirements, implementation questions, and technical troubleshooting.
+    - Coordinated with technical teams to investigate customer issues and support successful product integration.
 
 - company:
     name: Gulfstream

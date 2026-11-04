@@ -307,15 +307,15 @@ skills:
 
   - name: English
     logo: /images/sections/skills/lang-en.svg
-    summary: "Advanced (C1) - primary working language for technical writing."
+    summary: "Professional - primary working language for technical writing"
     categories: ["language"]
 
   - name: German
     logo: /images/sections/skills/lang-de.svg
-    summary: "Upper-Intermediate (B2)."
+    summary: "Intermediate"
     categories: ["language"]
 
   - name: Ukrainian
     logo: /images/sections/skills/lang-uk.svg
-    summary: "Native / Bilingual."
+    summary: "Native / Bilingual"
     categories: ["language"]
